@@ -44,3 +44,19 @@ print("🎉 Party emoji")
 print("▓▓▓ Block characters")
 ```
 
+## 📝 Single vs Double Quotes
+
+### Both Work the Same
+```python
+print("This uses double quotes")
+print('This uses single quotes')
+```
+
+### Smart Quote Choice
+```python
+# Use single quotes when text contains double quotes
+print('My favorite food is "Fried Rice"')
+
+# Use double quotes when text contains single quotes  
+print("It's a lovely weather outside!")
+
