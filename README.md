@@ -148,3 +148,22 @@ user_input = input("Enter any number: ")
 print("You entered:", user_input)
 print("Type of your input:", type(user_input))
 ```
+### Data Type Behaviors
+```
+print("\n🔍 How Data Types Behave:")
+
+# Strings can be combined
+greeting = "Hello" + " " + "World"
+print("String combination:", greeting)
+```
+
+```
+number_math = 10 + 15
+print("Number calculation:", number_math)
+```
+
+```
+print("String + String:", "5" + "3")  # This gives "53"
+print("Number + Number:", 5 + 3)      # This gives 8
+print("String × Number:", "Hi! " * 3)  # This repeats the string
+```
