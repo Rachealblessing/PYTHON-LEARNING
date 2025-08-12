@@ -60,3 +60,91 @@ print('My favorite food is "Fried Rice"')
 # Use double quotes when text contains single quotes  
 print("It's a lovely weather outside!")
 
+### Multi line code
+```python
+print("My Daily Schedule:")
+print("8:00 AM - Wake up")
+print("9:00 AM - Breakfast")
+print("10:00 AM - Study Python")
+print("12:00 PM - Lunch")
+print("2:00 PM - More Python practice!")
+```
+
+### New line character
+
+```
+print("Grocery List:\n🥛 Milk\n🍞 Bread\n🥚 Eggs\n🍎 Apples")
+print("Today's Goals:\n✓ Learn Python basics\n✓ Practice coding\n✓ Have fun!")
+```
+### Creating and Using Basic Variables
+```
+name = "Alex"  # String variable
+age = 16       # Number variable
+is_student = True  # Boolean variable (True/False)
+
+print("Basic Variable Usage:")
+print("My name is", name)
+print("I am", age, "years old")
+print("Am I a student?", is_student)
+```
+### Modifying and Updating Variables
+```
+score = 0
+print("Starting score:", score)
+
+score = score + 10  # Add to the score
+print("After bonus:", score)
+
+score = score * 2   # Double the score
+print("After doubling:", score)
+```
+
+```
+name = "Python Beginner"
+print("Status:", name)
+name = "Python Expert"  # Variables can be updated
+print("New status:", name)
+```
+
+### Variables in Calculations and Formatting
+```
+birth_year = 2008
+current_year = 2024
+calculated_age = current_year - birth_year
+
+print("If you were born in", birth_year)
+print("In", current_year, "you would be", calculated_age, "years old")
+```
+
+### Learn how input() waits for user response
+```
+name = input("What is your name? ")
+print("Hello,", name, "! Nice to meet you!")
+
+age = input("How old are you? ")
+print("Wow,", age, "is a great age!")
+```
+###  Multi-Question Interactive Survey
+```
+print("\n🎮 Welcome to the Interest Survey! 🎮")
+
+movie = input("What's your favorite movie? ")
+food = input("What's your favorite food? ")
+subject = input("What's your favorite school subject? ")
+
+print(f"""
+🌟 Your Interest Profile 🌟
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎬 Favorite Movie: {movie}
+🍕 Favorite Food: {food}
+📚 Favorite Subject: {subject}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Thanks for sharing!
+""")
+```
+### Discovering data type
+```
+user_input = input("Enter any number: ")
+print("You entered:", user_input)
+print("Type of your input:", type(user_input))
+```
