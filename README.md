@@ -157,7 +157,7 @@ greeting = "Hello" + " " + "World"
 print("String combination:", greeting)
 ```
 
-```
+```python
 number_math = 10 + 15
 print("Number calculation:", number_math)
 ```
@@ -169,7 +169,8 @@ print("String × Number:", "Hi! " * 3)  # This repeats the string
 ```
 
 ### Convert strings to numbers for math
-```
+
+```python
 num1 = int(input("Enter first number"))
 num2 = int(input("Enter first number"))
 
@@ -183,7 +184,9 @@ print(f"{num1} × {num2} = {multiplication}")
 ```
 
 ### Learn about float conversion for precise calculations
-```
+
+
+```python
 print("\n💰 Financial Calculator")
 
 price = input("Enter the price: $")
@@ -191,7 +194,9 @@ tax_rate = input("Enter tax rate (like 0.08 for 8%): ")
 tip_percentage = input("Enter tip percentage (like 0.15 for 15%): ")
 ```
 ### Convert to floats for decimal calculations
-```
+
+
+```python
 price_float = float(price)
 tax_float = float(tax_rate)
 tip_float = float(tip_percentage)
