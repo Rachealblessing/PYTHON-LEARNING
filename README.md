@@ -161,12 +161,12 @@ print("String combination:", greeting)
 number_math = 10 + 15
 print("Number calculation:", number_math)
 ```
-
-
+```
 print("String + String:", "5" + "3")  # This gives "53"
 print("Number + Number:", 5 + 3)      # This gives 8
 print("String × Number:", "Hi! " * 3)  # This repeats the string
 ```
+
 
 ### Convert strings to numbers for math
 
