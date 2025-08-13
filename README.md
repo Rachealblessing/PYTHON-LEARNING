@@ -168,5 +168,41 @@ print("Number + Number:", 5 + 3)      # This gives 8
 print("String × Number:", "Hi! " * 3)  # This repeats the string
 ```
 
+### Convert strings to numbers for math
+```
+num1 = int(input("Enter first number"))
+num2 = int(input("Enter first number"))
 
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+
+print(f"{num1} + {num2} = {addition}")
+print(f"{num1} - {num2} = {subtraction}")
+print(f"{num1} × {num2} = {multiplication}")
+```
+
+### Learn about float conversion for precise calculations
+```
+print("\n💰 Financial Calculator")
+
+price = input("Enter the price: $")
+tax_rate = input("Enter tax rate (like 0.08 for 8%): ")
+tip_percentage = input("Enter tip percentage (like 0.15 for 15%): ")
+```
+### Convert to floats for decimal calculations
+```
+price_float = float(price)
+tax_float = float(tax_rate)
+tip_float = float(tip_percentage)
+
+tax_amount = price_float * tax_float
+tip_amount = price_float * tip_float
+total = price_float + tax_amount + tip_amount
+
+print(f"Price: ${price_float:.2f}")
+print(f"Tax: ${tax_amount:.2f}")
+print(f"Tip: ${tip_amount:.2f}")
+print(f"Total: ${total:.2f}")
+```
 
