@@ -211,3 +211,12 @@ print(f"Tip: ${tip_amount:.2f}")
 print(f"Total: ${total:.2f}")
 ```
 
+### To make decision
+```
+age = int(input("how old are you?"))
+
+if age >=18:
+  print("you can vote!")
+if age  < 18:
+  print("you are not old enough to vote yet.")
+```
