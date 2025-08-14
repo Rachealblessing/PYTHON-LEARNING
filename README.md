@@ -220,3 +220,19 @@ if age >=18:
 if age  < 18:
   print("you are not old enough to vote yet.")
 ```
+
+
+### Using if statements
+```python
+if grade >=90:
+  print("Excellent! you got an A! ")
+elif grade >= 80: #else if
+  print("Great job! you got a B! ")
+elif grade >= 70:
+  print("Good work! you got a C! ")
+elif grade >= 60:
+  print("You passed with a D. ")
+else: #catches the remaining condition
+  print("you have to work harder. ")
+  ```
+
