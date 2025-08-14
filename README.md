@@ -236,3 +236,30 @@ else: #catches the remaining condition
   print("you have to work harder. ")
   ```
 
+### Learn how programs can make choices
+
+```python
+print("🤖 Decision Making Basics")
+
+age = int(input("How old are you? "))
+
+if age >= 18:
+    print("You are an adult!")
+if age < 18:
+    print("You are a minor.")
+```
+
+### Test with numbers
+
+```
+number = int(input("Enter any number: "))
+if number > 0:
+    print("Your number is positive!")
+if number < 0:
+    print("Your number is negative!")
+if number == 0:
+    print("Your number is zero!")
+```
+
+  
+  
